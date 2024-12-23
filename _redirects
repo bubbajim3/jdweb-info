@@ -5,7 +5,7 @@
 /:notrailing/ /:notrailing 301
 
 # Remove subdirectories
-/:nosubdirect/* /:nosubdirect?short=:splat 301
+/:nosubdirect/* /:nosubdirect 301
 
 # Redirect unknown
 /:unknown /?short=:unknown 301

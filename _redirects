@@ -1,11 +1,14 @@
 # Main redirect
-/ https://www.jamesdonnell.com 302
+/ https://www.jamesdonnell.com 301
 
 # Remove trailing slash
 /:notrailing/ /:notrailing 301
 
+# Remove subdirectories
+/:nosubdirect/* /:nosubdirect?short=:splat 301
+
 # Redirect unknown
-/:unknown /?short=:unknown
+/:unknown /?short=:unknown 301
 
 # URL short
 /Cisco-Certs https://cp.certmetrics.com/cisco/en/public/transcript/T55ZWGHC1NBQ1CW1 301

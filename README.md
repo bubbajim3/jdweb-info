@@ -1,2 +1,2 @@
-# jdweb-info
-Public webpage for https://www.jdweb.info used for URL shortening
+# anakat-info
+Public webpage for https://www.anakat.info used for URL shortening

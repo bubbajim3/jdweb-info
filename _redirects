@@ -1,0 +1,5 @@
+# Remove trailing slash
+/:notrailing/ /:nottrailing 301
+
+# URL shortening
+/Cisco-Certs https://cp.certmetrics.com/cisco/en/public/transcript/T55ZWGHC1NBQ1CW1

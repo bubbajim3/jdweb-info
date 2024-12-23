@@ -1,5 +1,8 @@
 # Remove trailing slash
 /:notrailing/ /:notrailing 301
 
+# Main redirect
+/ https://www.jamesdonnell.com 302
+
 # URL shortening
-/Cisco-Certs https://cp.certmetrics.com/cisco/en/public/transcript/T55ZWGHC1NBQ1CW1
+/Cisco-Certs https://cp.certmetrics.com/cisco/en/public/transcript/T55ZWGHC1NBQ1CW1 301

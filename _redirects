@@ -7,10 +7,10 @@
 # Remove subdirectories
 /:nosubdirect/* /:nosubdirect 302
 
-# Redirect unknown
-/:unknown /?short=:unknown 302
-
-# URL short
+# URL shortening
 /Cisco-Certs https://cp.certmetrics.com/cisco/en/public/transcript/T55ZWGHC1NBQ1CW1 302
 /CompTIA-Certs https://www.certmetrics.com/comptia/public/transcript.aspx?transcript=P8W59JZCCF44QR94 302
 /yt https://www.youtube.com/@ajadventures2315 302
+
+# Redirect unknown
+/:unknown /?short=:unknown 302

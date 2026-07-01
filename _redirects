@@ -12,5 +12,5 @@
 /CompTIA-Certs https://www.certmetrics.com/comptia/public/transcript.aspx?transcript=P8W59JZCCF44QR94 302
 /yt https://www.youtube.com/@ajadventures2315 302
 
-# Redirect unknown
-/:unknown /?short=:unknown 302
+# Redirect unknown if file does not exist
+/:unknown /?short=:unknown 200

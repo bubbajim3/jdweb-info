@@ -13,4 +13,4 @@
 /yt https://www.youtube.com/@ajadventures2315 302
 
 # Redirect unknown if file does not exist
-/:unknown /?short=:unknown 200
+/:unknown /?short=:unknown 302

@@ -1,0 +1,4 @@
+Contact: mailto:security-txt@anakat.info
+Expires: 2030-01-01T04:59:00.000Z
+Preferred-Languages: en
+Canonical: https://www.anakat.info/.well-known/security.txt

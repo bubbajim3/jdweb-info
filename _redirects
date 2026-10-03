@@ -1,6 +1,11 @@
 # Main redirect
 / https://www.anadonnell.com 302
 
+# Force static files to return without redirect
+/robots.txt /robots.txt 200
+/sitemap.xml /sitemap.xml 200
+/.well-known/security.txt /.well-known/security.txt 200
+
 # Remove trailing slash
 /:notrailing/ /:notrailing 302
 
@@ -9,7 +14,6 @@
 
 # URL shortening
 # /Cisco-Certs https://cp.certmetrics.com/cisco/en/public/transcript/T55ZWGHC1NBQ1CW1 302
-
 
 # Redirect unknown
 /:unknown /?short=:unknown 302
